@@ -2,6 +2,10 @@
 
 A full-stack database management application with complete CRUD operations, built with React (JSX), Vite, Node.js, Express, and NeonDB PostgreSQL.
 
+----
+
+### deployed url - https://newdmi.netlify.app/
+
 ## Features
 
 ### Database Management
