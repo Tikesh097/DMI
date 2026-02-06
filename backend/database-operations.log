@@ -1,0 +1,23 @@
+{"timestamp":"2026-02-06T12:43:06.639Z","level":"INFO","userId":"anonymous","action":"DATABASE_ACCESSED","details":{"database":"all"}}
+{"timestamp":"2026-02-06T12:43:06.875Z","level":"INFO","userId":"anonymous","action":"DATABASE_ACCESSED","details":{"database":"all"}}
+{"timestamp":"2026-02-06T12:43:31.248Z","level":"SUCCESS","userId":"anonymous","action":"DATABASE_CREATED","details":{"database":"tikesh1"}}
+{"timestamp":"2026-02-06T12:43:31.989Z","level":"INFO","userId":"anonymous","action":"DATABASE_ACCESSED","details":{"database":"all"}}
+{"timestamp":"2026-02-06T12:43:33.537Z","level":"INFO","userId":"anonymous","action":"USER_LIST","details":{"database":"tikesh1","count":0}}
+{"timestamp":"2026-02-06T12:43:35.079Z","level":"INFO","userId":"anonymous","action":"DATABASE_ACCESSED","details":{"database":"newDMI"}}
+{"timestamp":"2026-02-06T12:43:50.764Z","level":"SUCCESS","userId":"anonymous","action":"DATABASE_CREATED","details":{"database":"DMI"}}
+{"timestamp":"2026-02-06T12:43:51.443Z","level":"INFO","userId":"anonymous","action":"DATABASE_ACCESSED","details":{"database":"all"}}
+{"timestamp":"2026-02-06T12:43:52.939Z","level":"INFO","userId":"anonymous","action":"USER_LIST","details":{"database":"DMI","count":0}}
+{"timestamp":"2026-02-06T12:43:54.437Z","level":"INFO","userId":"anonymous","action":"DATABASE_ACCESSED","details":{"database":"DMI"}}
+{"timestamp":"2026-02-06T12:44:26.833Z","level":"SUCCESS","userId":"anonymous","action":"DATABASE_MIGRATED","details":{"source":"DMI","target":"tikesh1","success":true,"message":"Successfully migrated from 'DMI' to 'tikesh1'","tablesCount":1,"timestamp":"2026-02-06T12:44:25.278Z"}}
+{"timestamp":"2026-02-06T12:44:27.058Z","level":"INFO","userId":"anonymous","action":"DATABASE_ACCESSED","details":{"database":"all"}}
+{"timestamp":"2026-02-06T12:44:42.796Z","level":"INFO","userId":"anonymous","action":"USER_CREATE","details":{"database":"DMI","userId":1,"email":"tikeshaswale97@gmail.com"}}
+{"timestamp":"2026-02-06T12:45:25.635Z","level":"ERROR","userId":"anonymous","action":"DATABASE_MIGRATION_FAILED","details":{"source":"tikesh1","target":"DMI","error":"relation \"DMI.users_id_seq\" does not exist"}}
+{"timestamp":"2026-02-06T12:46:11.828Z","level":"INFO","userId":"anonymous","action":"DATABASE_ACCESSED","details":{"database":"all"}}
+{"timestamp":"2026-02-06T12:46:12.070Z","level":"INFO","userId":"anonymous","action":"DATABASE_ACCESSED","details":{"database":"all"}}
+{"timestamp":"2026-02-06T12:46:15.685Z","level":"INFO","userId":"anonymous","action":"USER_LIST","details":{"database":"DMI","count":1}}
+{"timestamp":"2026-02-06T12:46:16.671Z","level":"INFO","userId":"anonymous","action":"USER_LIST","details":{"database":"tikesh1","count":0}}
+{"timestamp":"2026-02-06T12:46:31.974Z","level":"ERROR","userId":"anonymous","action":"DATABASE_MIGRATION_FAILED","details":{"source":"tikesh1","target":"DMI","error":"relation \"DMI.users_id_seq\" does not exist"}}
+{"timestamp":"2026-02-06T12:50:04.526Z","level":"INFO","userId":"anonymous","action":"DATABASE_ACCESSED","details":{"database":"all"}}
+{"timestamp":"2026-02-06T12:50:04.770Z","level":"INFO","userId":"anonymous","action":"DATABASE_ACCESSED","details":{"database":"all"}}
+{"timestamp":"2026-02-06T12:50:33.182Z","level":"SUCCESS","userId":"anonymous","action":"DATABASE_MIGRATED","details":{"source":"dmi","target":"tikesh1","success":true,"message":"Successfully migrated from 'dmi' to 'tikesh1'","tablesCount":1,"timestamp":"2026-02-06T12:50:31.604Z"}}
+{"timestamp":"2026-02-06T12:50:33.424Z","level":"INFO","userId":"anonymous","action":"DATABASE_ACCESSED","details":{"database":"all"}}
